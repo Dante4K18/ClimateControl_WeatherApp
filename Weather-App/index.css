@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #74ABE2 0%, #5563DE 100%);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: #5563DE;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3747A7;
+}
+
+.weather-container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+  width: 350px;
+  margin-top: 20px;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.weather-detail {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+/* Sample Weather Icons */
+.sunny {
+  background: url('https://www.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png') no-repeat center/cover;
+}
+
+.cloudy {
+  background: url('https://www.iconfinder.com/data/icons/weather-flat-14/64/weather04-512.png') no-repeat center/cover;
+}
+
+.rainy {
+  background: url('https://www.iconfinder.com/data/icons/weather-flat-14/64/weather05-512.png') no-repeat center/cover;
+}
+
+.snowy {
+  background: url('https://www.iconfinder.com/data/icons/weather-flat-14/64/weather06-512.png') no-repeat center/cover;
+}
